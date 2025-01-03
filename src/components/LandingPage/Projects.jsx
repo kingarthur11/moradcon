@@ -1,4 +1,9 @@
 import React from 'react'
+import Image1 from '../../assets/adjacent_view_2.jpeg'
+import Image2 from '../../assets/adjacent_view.jpeg'
+import Image3 from '../../assets/double_view.jpeg'
+import Image4 from '../../assets/house_front_view.jpeg'
+import Image5 from '../../assets/house_side_view.jpeg'
 
 const Projects = () => {
   return (
@@ -11,29 +16,25 @@ const Projects = () => {
                     <p className=''>Use these awesome forms to login or create new account in your project for free.</p>
                 </div>
             </div>
+
+
             <div className='grid lg:grid-cols-3 gap-8'>
                 <div className=''>
-                    <img style={{ borderRadius: '16px' }} src="https://demo.workdo.io/erpgo/storage/uploads/landing_page_image/1688109087-screenshots.png" alt="" />
+                    <img style={{ borderRadius: '16px' }} src={Image1} alt="" />
                 </div>
                 <div className=''>
-                    <img style={{ borderRadius: '16px' }} src="	https://demo.workdo.io/erpgo/storage/uploads/landing_page_image/1688109104-screenshots.png" alt="" />
+                    <img style={{ borderRadius: '16px' }} src={Image2} alt="" />
                 </div>
                 <div className=''>
-                    <img style={{ borderRadius: '16px' }} src="	https://demo.workdo.io/erpgo/storage/uploads/landing_page_image/1688100981-screenshots.png" alt="" />
+                    <img style={{ borderRadius: '16px' }} src={Image3} alt="" />
                 </div>
-                <div className=''>
-                    <img style={{ borderRadius: '16px' }} src="	https://demo.workdo.io/erpgo/storage/uploads/landing_page_image/1688109222-screenshots.png" alt="" />
-                </div>
-                <div className=''>
-                    <img style={{ borderRadius: '16px' }} src="	https://demo.workdo.io/erpgo/storage/uploads/landing_page_image/1688108614-screenshots.png" alt="" />
-                </div>
-                <div className=''>
-                    <img style={{ borderRadius: '16px' }} src="	https://demo.workdo.io/erpgo/storage/uploads/landing_page_image/1688108626-screenshots.png" alt="" />
-                </div>
+                
             </div>
+            
         </div>
     </div>
   )
 }
 
 export default Projects
+
